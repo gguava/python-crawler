@@ -29,9 +29,11 @@ class GetOnePageFlow:
 	
 	def save2db(self):
 		print "ok"
-		
+	def getCode(self):
+		print 'ok'	
 	
 x=GetOnePageFlow()
 x.setUrl("http://www.biquge.com/0_200/469850.html")
 
 x.getpage()
+x.getCode()
